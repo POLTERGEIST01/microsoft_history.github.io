@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url('./img/bcg.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav{
+    width: 480px;
+    margin: auto;
+    padding: 20px;
+}
+
+nav a{
+    font-family: "Calibri";
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.1s linear;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+nav a:hover{
+    color: rgb(206, 204, 204);
+    transition: 0.1s linear;
+}
+
+.body_bckg{
+    background-image: url("./img/background.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    font-family: "Calibri";
+    color: white;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.container p{
+    font-size: 19px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.blocks_container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 1000px;
+    max-height: 300px;
+    justify-content: center;
+}
+
+.prod_image{
+    width: 100px;
+    height: 100px;
+}
+
+.prod_image:hover{
+    width: 105px;
+    height: 105px;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.block:hover{
+    width: 120px;
+    max-height: 150px;
+}
+
+ul{
+    color: rgb(1, 216, 55);
+    font-size: 21px;
+    text-indent: 20px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.img_preim{
+    margin-top: 20px;
+    width: 140px;
+    height: 120px;
+}
+
+
+
+h1{
+    margin-top: 5px;
+}
+
+.a_botton{
+    text-decoration: none;
+    color: azure;
+}
+
+.botton{
+    text-align: center;
+    font-size: 16px;
+    width: 140px;
+    height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.botton:hover{
+    color: #1e5799;
+}
+
+.botton:visited{
+    color: azure;
+    text-decoration: none;
+}
+
+.img_cont{
+    width: 800px;
+    height: 400px;
+}
+
+.img_content{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+
+.img_tehnology{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_tehnology_gif{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.img_tehnology_content{
+    width: 600px;
+    height: 300px;
+}
+
+.Ver_1{
+    width: 400px;
+    height: 300px;
+}
+
+.block_heiden{
+    width: 1300px;
+    height: 800px;
+    display: block;
+    visibility: hidden;
+}
+
+.footer{
+    height: 70px;
+    color: white;
+    font-family: "Calibri";
+    font-size: 16px;
+}
+
+.text_footer{
+    width: 190px;
+    margin: auto;
+    text-align: center;
+}
+
+.microsoft_gif{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.gif_img{
+    width: 500px;
+    height: 300px;
+}
